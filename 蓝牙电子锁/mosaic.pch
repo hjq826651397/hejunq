@@ -1,0 +1,57 @@
+//
+//  mosaic.pch
+//  蓝牙电子锁
+//
+//  Created by mosaic on 2017/11/16.
+//  Copyright © 2017年 mosaic. All rights reserved.
+//
+
+#ifndef mosaic_pch
+#define mosaic_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Singleton.h"
+#import "ZKNavigationController.h"
+#import "ZKMainViewController.h"
+#import "NSString+ZKString.h"
+#import "UIColor+ZKColor.h"
+#import "UIImage+ZKImage.h"
+#import "NSData+ZKData.h"
+#import "UIView+Extension.h"
+#import "ZKAlertView.h"
+#import "ZKNotificationView.h"
+#import "ZKCommonData.h"
+#import "UICKeyChainStore.h"
+#import "FMDB.h"
+#import "ZKBleManager.h"
+#import "ZKPeripheral.h"
+#import "ZKButton.h"
+#import "ZKFileTool.h"
+#import "ZKBatteryView.h"
+#define ZKSCREEN_W [UIScreen mainScreen].bounds.size.width
+#define ZKSCREEN_H [UIScreen mainScreen].bounds.size.height
+
+
+#define relative_w(x)  (x/1080.0*ZKSCREEN_W)
+#define relative_h(x)  (x/1920.0*ZKSCREEN_H)
+
+#define rel_View_w(x,w)  (x/1080.0*w)
+#define rel_View_h(x,h)  (x/1920.0*h)
+
+#define defaultWith   375
+#define LabelFount(I)  [UIFont systemFontOfSize:(int)(ZKSCREEN_W/defaultWith*I)]
+
+//自定义日志
+#ifdef DEBUG
+#define ULR_Path @"http://save.alarm.net.cn/updata/mh109_test.bin"
+
+#define LRString [NSString stringWithFormat:@"%s", __FILE__].lastPathComponent
+#define ZKLog(...)  printf("%s: %s %s 第%d行: %s\n\n",[[NSString lr_stringDate] UTF8String],[[NSString stringWithFormat:@"%@",[NSThread currentThread]] UTF8String], [LRString UTF8String] ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#else
+#define  ZKLog(...)
+#define ULR_Path @"http://save.alarm.net.cn/updata/mh109.bin"
+
+#endif
+
+#endif /* mosaic_pch */

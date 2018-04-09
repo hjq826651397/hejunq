@@ -1,0 +1,1067 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010F43C61FBA782F00C33565 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F43C51FBA782F00C33565 /* AppDelegate.m */; };
+		010F43C91FBA782F00C33565 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F43C81FBA782F00C33565 /* ViewController.m */; };
+		010F43CC1FBA782F00C33565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010F43CA1FBA782F00C33565 /* Main.storyboard */; };
+		010F43CE1FBA782F00C33565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010F43CD1FBA782F00C33565 /* Assets.xcassets */; };
+		010F43D11FBA782F00C33565 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010F43CF1FBA782F00C33565 /* LaunchScreen.storyboard */; };
+		010F43D41FBA782F00C33565 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F43D31FBA782F00C33565 /* main.m */; };
+		010F43DE1FBA782F00C33565 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F43DD1FBA782F00C33565 /* _____Tests.m */; };
+		010F43E91FBA782F00C33565 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F43E81FBA782F00C33565 /* _____UITests.m */; };
+		010F43F91FBD260F00C33565 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 010F43F71FBD260F00C33565 /* success.png */; };
+		010F43FA1FBD260F00C33565 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 010F43F81FBD260F00C33565 /* error.png */; };
+		010F44031FBD267400C33565 /* NSString+ZKString.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F43FD1FBD267400C33565 /* NSString+ZKString.m */; };
+		010F44041FBD267400C33565 /* UIColor+ZKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F44011FBD267400C33565 /* UIColor+ZKColor.m */; };
+		010F44051FBD267400C33565 /* UIImage+ZKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F44021FBD267400C33565 /* UIImage+ZKImage.m */; };
+		010F440B1FBD26AC00C33565 /* ZKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F44081FBD26AC00C33565 /* ZKAlertView.m */; };
+		010F440C1FBD26AC00C33565 /* ZKNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F440A1FBD26AC00C33565 /* ZKNotificationView.m */; };
+		010F44171FBE6DDF00C33565 /* ZKCommandData.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F44111FBE6DDF00C33565 /* ZKCommandData.m */; };
+		010F44181FBE6DDF00C33565 /* ZKBleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F44141FBE6DDF00C33565 /* ZKBleManager.m */; };
+		010F44191FBE6DDF00C33565 /* ZKPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 010F44161FBE6DDF00C33565 /* ZKPeripheral.m */; };
+		0113942A1FF37E24009D2B35 /* ZKUpgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011394281FF37E24009D2B35 /* ZKUpgradeViewController.m */; };
+		0113942B1FF37E24009D2B35 /* ZKUpgradeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011394291FF37E24009D2B35 /* ZKUpgradeViewController.xib */; };
+		0125964620084E830044C8D5 /* 关于.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125964520084E820044C8D5 /* 关于.png */; };
+		0125964820084E8D0044C8D5 /* 键盘开锁图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 0125964720084E8D0044C8D5 /* 键盘开锁图标.png */; };
+		0125964C20084FC70044C8D5 /* ZKDevManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125964A20084FC60044C8D5 /* ZKDevManagerController.m */; };
+		0125964D20084FC70044C8D5 /* ZKDevManagerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0125964B20084FC70044C8D5 /* ZKDevManagerController.xib */; };
+		01259651200891F10044C8D5 /* ZKKeyboardLockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125964F200891F10044C8D5 /* ZKKeyboardLockController.m */; };
+		01259652200891F10044C8D5 /* ZKKeyboardLockController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01259650200891F10044C8D5 /* ZKKeyboardLockController.xib */; };
+		01259654200CA7560044C8D5 /* 升级图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 01259653200CA7560044C8D5 /* 升级图标.png */; };
+		01259658200D857F0044C8D5 /* ZKAboutBleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01259656200D857F0044C8D5 /* ZKAboutBleController.m */; };
+		01259659200D857F0044C8D5 /* ZKAboutBleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01259657200D857F0044C8D5 /* ZKAboutBleController.xib */; };
+		0125969D2012F4CE0044C8D5 /* ZKBatteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0125969B2012F4CE0044C8D5 /* ZKBatteryView.m */; };
+		012C4BAB2018733800EC4A0A /* ZKSignalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012C4BA92018733800EC4A0A /* ZKSignalController.m */; };
+		012C4BAC2018733800EC4A0A /* ZKSignalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012C4BAA2018733800EC4A0A /* ZKSignalController.xib */; };
+		013F31811FEA626C00FD4C94 /* 可开锁.png in Resources */ = {isa = PBXBuildFile; fileRef = 013F31801FEA626C00FD4C94 /* 可开锁.png */; };
+		013F31831FEA628100FD4C94 /* 不可开锁.png in Resources */ = {isa = PBXBuildFile; fileRef = 013F31821FEA628100FD4C94 /* 不可开锁.png */; };
+		0169282C1FCBE6F0006D599F /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0169282B1FCBE6EF006D599F /* UICKeyChainStore.m */; };
+		0169283B1FCD3673006D599F /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 016928311FCD3672006D599F /* FMDatabasePool.m */; };
+		0169283C1FCD3673006D599F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 016928331FCD3672006D599F /* FMResultSet.m */; };
+		0169283D1FCD3673006D599F /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 016928341FCD3672006D599F /* FMDatabaseAdditions.m */; };
+		0169283E1FCD3673006D599F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 016928361FCD3672006D599F /* FMDatabase.m */; };
+		0169283F1FCD3673006D599F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 016928371FCD3672006D599F /* FMDatabaseQueue.m */; };
+		0169284C1FD2570B006D599F /* ZKAddBLEController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0169284A1FD2570B006D599F /* ZKAddBLEController.m */; };
+		0169284D1FD2570B006D599F /* ZKAddBLEController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0169284B1FD2570B006D599F /* ZKAddBLEController.xib */; };
+		016928531FD79606006D599F /* NSData+ZKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 016928521FD79606006D599F /* NSData+ZKData.m */; };
+		016928571FDF7A0A006D599F /* ZKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016928561FDF7A0A006D599F /* ZKNavigationController.m */; };
+		0169285B1FDF8411006D599F /* ZKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016928591FDF8411006D599F /* ZKMainViewController.m */; };
+		0169285C1FDF8411006D599F /* ZKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0169285A1FDF8411006D599F /* ZKMainViewController.xib */; };
+		016E42DC1FDFAA4400342A6E /* 返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42D21FDFAA4300342A6E /* 返回按钮.png */; };
+		016E42DD1FDFAA4400342A6E /* 在线升级.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42D31FDFAA4300342A6E /* 在线升级.png */; };
+		016E42DE1FDFAA4400342A6E /* 设备.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42D41FDFAA4300342A6E /* 设备.png */; };
+		016E42DF1FDFAA4400342A6E /* 删除设备.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42D51FDFAA4300342A6E /* 删除设备.png */; };
+		016E42E11FDFAA4400342A6E /* 下一级按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42D71FDFAA4300342A6E /* 下一级按钮.png */; };
+		016E42E21FDFAA4400342A6E /* 保存图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42D81FDFAA4300342A6E /* 保存图标.png */; };
+		016E42E31FDFAA4400342A6E /* 开锁图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42D91FDFAA4300342A6E /* 开锁图标.png */; };
+		016E42E41FDFAA4400342A6E /* 开关按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42DA1FDFAA4400342A6E /* 开关按钮.png */; };
+		016E42E51FDFAA4400342A6E /* 钥匙管理.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42DB1FDFAA4400342A6E /* 钥匙管理.png */; };
+		016E42E91FDFAB0D00342A6E /* 添加按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42E81FDFAB0D00342A6E /* 添加按钮.png */; };
+		016E42ED1FDFBB7700342A6E /* ZKButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 016E42EC1FDFBB7700342A6E /* ZKButton.m */; };
+		016E42EF1FE0AFBC00342A6E /* 蓝牙锁APP_02_画板 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42EE1FE0AFBC00342A6E /* 蓝牙锁APP_02_画板 4.png */; };
+		016E42F11FE0B04100342A6E /* 蓝牙锁APP_画板 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 016E42F01FE0B04100342A6E /* 蓝牙锁APP_画板 2.png */; };
+		017E6D8E2003423D00BF488B /* ZKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 017E6D8D2003423D00BF488B /* ZKFile.m */; };
+		018C7C5A2000AF2C0089BF3C /* ZKFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C7C592000AF2C0089BF3C /* ZKFileTool.m */; };
+		01B953ED1FE0F53F0051ACA4 /* ZKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B953EC1FE0F53F0051ACA4 /* ZKTableViewCell.m */; };
+		01B953F01FE10BC90051ACA4 /* ZKMaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B953EF1FE10BC90051ACA4 /* ZKMaskController.m */; };
+		01B953F31FE123590051ACA4 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B953F21FE123580051ACA4 /* UIView+Extension.m */; };
+		01B953F51FE125890051ACA4 /* 资源 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B953F41FE125890051ACA4 /* 资源 17.png */; };
+		01B953F71FE125D80051ACA4 /* bg_nfc_lock-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B953F61FE125D70051ACA4 /* bg_nfc_lock-02.jpg */; };
+		01B953FB1FE200DE0051ACA4 /* ZKUnlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B953F91FE200DE0051ACA4 /* ZKUnlockController.m */; };
+		01B953FC1FE200DE0051ACA4 /* ZKUnlockController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B953FA1FE200DE0051ACA4 /* ZKUnlockController.xib */; };
+		01B953FF1FE213700051ACA4 /* ZKEmp1Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B953FE1FE213700051ACA4 /* ZKEmp1Button.m */; };
+		01B954021FE217050051ACA4 /* ZKEmp2Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B954011FE217050051ACA4 /* ZKEmp2Button.m */; };
+		01B954051FE24A480051ACA4 /* ZKEmp3Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B954041FE24A480051ACA4 /* ZKEmp3Button.m */; };
+		01B954091FE262F90051ACA4 /* ZKRemarkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B954071FE262F90051ACA4 /* ZKRemarkController.m */; };
+		01B9540A1FE262F90051ACA4 /* ZKRemarkController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B954081FE262F90051ACA4 /* ZKRemarkController.xib */; };
+		01B9540D1FE37C030051ACA4 /* ZKMainTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9540C1FE37C030051ACA4 /* ZKMainTableCell.m */; };
+		01B9540F1FE4A9D60051ACA4 /* 升级.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B9540E1FE4A9D60051ACA4 /* 升级.png */; };
+		01B954111FE4BB5F0051ACA4 /* StartImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B954101FE4BB5E0051ACA4 /* StartImage.png */; };
+		01B954151FE5076A0051ACA4 /* ZKKeyManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B954131FE5076A0051ACA4 /* ZKKeyManageController.m */; };
+		01B954161FE5076A0051ACA4 /* ZKKeyManageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B954141FE5076A0051ACA4 /* ZKKeyManageController.xib */; };
+		01C9B02D1FC7F243004CC7D8 /* ZKCommonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C9B02C1FC7F243004CC7D8 /* ZKCommonData.m */; };
+		01F3EF752004747500B0076A /* ZKProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F3EF742004747500B0076A /* ZKProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		010F43DA1FBA782F00C33565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010F43B91FBA782F00C33565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010F43C01FBA782F00C33565;
+			remoteInfo = "蓝牙电子锁";
+		};
+		010F43E51FBA782F00C33565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010F43B91FBA782F00C33565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010F43C01FBA782F00C33565;
+			remoteInfo = "蓝牙电子锁";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010F43C11FBA782F00C33565 /* 蓝牙电子锁.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蓝牙电子锁.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		010F43C41FBA782F00C33565 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		010F43C51FBA782F00C33565 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		010F43C71FBA782F00C33565 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		010F43C81FBA782F00C33565 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		010F43CB1FBA782F00C33565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		010F43CD1FBA782F00C33565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		010F43D01FBA782F00C33565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		010F43D21FBA782F00C33565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010F43D31FBA782F00C33565 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		010F43D91FBA782F00C33565 /* 蓝牙电子锁Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓝牙电子锁Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		010F43DD1FBA782F00C33565 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		010F43DF1FBA782F00C33565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010F43E41FBA782F00C33565 /* 蓝牙电子锁UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓝牙电子锁UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		010F43E81FBA782F00C33565 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		010F43EA1FBA782F00C33565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010F43F71FBD260F00C33565 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = success.png; path = "蓝牙电子锁/image/success.png"; sourceTree = SOURCE_ROOT; };
+		010F43F81FBD260F00C33565 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = "蓝牙电子锁/image/error.png"; sourceTree = SOURCE_ROOT; };
+		010F43FD1FBD267400C33565 /* NSString+ZKString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZKString.m"; sourceTree = "<group>"; };
+		010F43FE1FBD267400C33565 /* UIColor+ZKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZKColor.h"; sourceTree = "<group>"; };
+		010F43FF1FBD267400C33565 /* UIImage+ZKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZKImage.h"; sourceTree = "<group>"; };
+		010F44001FBD267400C33565 /* NSString+ZKString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZKString.h"; sourceTree = "<group>"; };
+		010F44011FBD267400C33565 /* UIColor+ZKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZKColor.m"; sourceTree = "<group>"; };
+		010F44021FBD267400C33565 /* UIImage+ZKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZKImage.m"; sourceTree = "<group>"; };
+		010F44071FBD26AC00C33565 /* ZKNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNotificationView.h; sourceTree = "<group>"; };
+		010F44081FBD26AC00C33565 /* ZKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAlertView.m; sourceTree = "<group>"; };
+		010F44091FBD26AC00C33565 /* ZKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKAlertView.h; sourceTree = "<group>"; };
+		010F440A1FBD26AC00C33565 /* ZKNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNotificationView.m; sourceTree = "<group>"; };
+		010F440E1FBD27A700C33565 /* mosaic.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mosaic.pch; sourceTree = "<group>"; };
+		010F440F1FBD28D000C33565 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		010F44111FBE6DDF00C33565 /* ZKCommandData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCommandData.m; sourceTree = "<group>"; };
+		010F44121FBE6DDF00C33565 /* ZKCommandData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCommandData.h; sourceTree = "<group>"; };
+		010F44131FBE6DDF00C33565 /* ZKPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPeripheral.h; sourceTree = "<group>"; };
+		010F44141FBE6DDF00C33565 /* ZKBleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBleManager.m; sourceTree = "<group>"; };
+		010F44151FBE6DDF00C33565 /* ZKBleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKBleManager.h; sourceTree = "<group>"; };
+		010F44161FBE6DDF00C33565 /* ZKPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPeripheral.m; sourceTree = "<group>"; };
+		011394271FF37E24009D2B35 /* ZKUpgradeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKUpgradeViewController.h; sourceTree = "<group>"; };
+		011394281FF37E24009D2B35 /* ZKUpgradeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKUpgradeViewController.m; sourceTree = "<group>"; };
+		011394291FF37E24009D2B35 /* ZKUpgradeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKUpgradeViewController.xib; sourceTree = "<group>"; };
+		0125964520084E820044C8D5 /* 关于.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于.png"; sourceTree = "<group>"; };
+		0125964720084E8D0044C8D5 /* 键盘开锁图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "键盘开锁图标.png"; sourceTree = "<group>"; };
+		0125964920084FC60044C8D5 /* ZKDevManagerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKDevManagerController.h; sourceTree = "<group>"; };
+		0125964A20084FC60044C8D5 /* ZKDevManagerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKDevManagerController.m; sourceTree = "<group>"; };
+		0125964B20084FC70044C8D5 /* ZKDevManagerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKDevManagerController.xib; sourceTree = "<group>"; };
+		0125964E200891F10044C8D5 /* ZKKeyboardLockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKKeyboardLockController.h; sourceTree = "<group>"; };
+		0125964F200891F10044C8D5 /* ZKKeyboardLockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKKeyboardLockController.m; sourceTree = "<group>"; };
+		01259650200891F10044C8D5 /* ZKKeyboardLockController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKKeyboardLockController.xib; sourceTree = "<group>"; };
+		01259653200CA7560044C8D5 /* 升级图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "升级图标.png"; sourceTree = "<group>"; };
+		01259655200D857F0044C8D5 /* ZKAboutBleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKAboutBleController.h; sourceTree = "<group>"; };
+		01259656200D857F0044C8D5 /* ZKAboutBleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKAboutBleController.m; sourceTree = "<group>"; };
+		01259657200D857F0044C8D5 /* ZKAboutBleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKAboutBleController.xib; sourceTree = "<group>"; };
+		0125969B2012F4CE0044C8D5 /* ZKBatteryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBatteryView.m; sourceTree = "<group>"; };
+		0125969C2012F4CE0044C8D5 /* ZKBatteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKBatteryView.h; sourceTree = "<group>"; };
+		012C4BA82018733800EC4A0A /* ZKSignalController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSignalController.h; sourceTree = "<group>"; };
+		012C4BA92018733800EC4A0A /* ZKSignalController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSignalController.m; sourceTree = "<group>"; };
+		012C4BAA2018733800EC4A0A /* ZKSignalController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKSignalController.xib; sourceTree = "<group>"; };
+		013F31801FEA626C00FD4C94 /* 可开锁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "可开锁.png"; sourceTree = "<group>"; };
+		013F31821FEA628100FD4C94 /* 不可开锁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不可开锁.png"; sourceTree = "<group>"; };
+		0169282A1FCBE6EF006D599F /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		0169282B1FCBE6EF006D599F /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
+		0169282D1FCBE7A9006D599F /* 蓝牙电子锁.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "蓝牙电子锁.entitlements"; sourceTree = "<group>"; };
+		016928301FCD3672006D599F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		016928311FCD3672006D599F /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		016928321FCD3672006D599F /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		016928331FCD3672006D599F /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		016928341FCD3672006D599F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		016928351FCD3672006D599F /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		016928361FCD3672006D599F /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		016928371FCD3672006D599F /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		016928381FCD3672006D599F /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		016928391FCD3672006D599F /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		0169283A1FCD3673006D599F /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		016928491FD2570B006D599F /* ZKAddBLEController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKAddBLEController.h; sourceTree = "<group>"; };
+		0169284A1FD2570B006D599F /* ZKAddBLEController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKAddBLEController.m; sourceTree = "<group>"; };
+		0169284B1FD2570B006D599F /* ZKAddBLEController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKAddBLEController.xib; sourceTree = "<group>"; };
+		016928511FD79606006D599F /* NSData+ZKData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+ZKData.h"; sourceTree = "<group>"; };
+		016928521FD79606006D599F /* NSData+ZKData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZKData.m"; sourceTree = "<group>"; };
+		016928551FDF7A0A006D599F /* ZKNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKNavigationController.h; sourceTree = "<group>"; };
+		016928561FDF7A0A006D599F /* ZKNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKNavigationController.m; sourceTree = "<group>"; };
+		016928581FDF8411006D599F /* ZKMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKMainViewController.h; sourceTree = "<group>"; };
+		016928591FDF8411006D599F /* ZKMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKMainViewController.m; sourceTree = "<group>"; };
+		0169285A1FDF8411006D599F /* ZKMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKMainViewController.xib; sourceTree = "<group>"; };
+		016E42D21FDFAA4300342A6E /* 返回按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮.png"; sourceTree = "<group>"; };
+		016E42D31FDFAA4300342A6E /* 在线升级.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "在线升级.png"; sourceTree = "<group>"; };
+		016E42D41FDFAA4300342A6E /* 设备.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设备.png"; sourceTree = "<group>"; };
+		016E42D51FDFAA4300342A6E /* 删除设备.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除设备.png"; sourceTree = "<group>"; };
+		016E42D71FDFAA4300342A6E /* 下一级按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一级按钮.png"; sourceTree = "<group>"; };
+		016E42D81FDFAA4300342A6E /* 保存图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保存图标.png"; sourceTree = "<group>"; };
+		016E42D91FDFAA4300342A6E /* 开锁图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开锁图标.png"; sourceTree = "<group>"; };
+		016E42DA1FDFAA4400342A6E /* 开关按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开关按钮.png"; sourceTree = "<group>"; };
+		016E42DB1FDFAA4400342A6E /* 钥匙管理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钥匙管理.png"; sourceTree = "<group>"; };
+		016E42E81FDFAB0D00342A6E /* 添加按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "添加按钮.png"; path = "../../../../Downloads/添加按钮.png"; sourceTree = "<group>"; };
+		016E42EB1FDFBB7700342A6E /* ZKButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKButton.h; sourceTree = "<group>"; };
+		016E42EC1FDFBB7700342A6E /* ZKButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKButton.m; sourceTree = "<group>"; };
+		016E42EE1FE0AFBC00342A6E /* 蓝牙锁APP_02_画板 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝牙锁APP_02_画板 4.png"; sourceTree = "<group>"; };
+		016E42F01FE0B04100342A6E /* 蓝牙锁APP_画板 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蓝牙锁APP_画板 2.png"; sourceTree = "<group>"; };
+		017E6D8C2003423D00BF488B /* ZKFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKFile.h; sourceTree = "<group>"; };
+		017E6D8D2003423D00BF488B /* ZKFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFile.m; sourceTree = "<group>"; };
+		018C7C582000AF2C0089BF3C /* ZKFileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKFileTool.h; sourceTree = "<group>"; };
+		018C7C592000AF2C0089BF3C /* ZKFileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFileTool.m; sourceTree = "<group>"; };
+		01B953EB1FE0F53F0051ACA4 /* ZKTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKTableViewCell.h; sourceTree = "<group>"; };
+		01B953EC1FE0F53F0051ACA4 /* ZKTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKTableViewCell.m; sourceTree = "<group>"; };
+		01B953EE1FE10BC90051ACA4 /* ZKMaskController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKMaskController.h; sourceTree = "<group>"; };
+		01B953EF1FE10BC90051ACA4 /* ZKMaskController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKMaskController.m; sourceTree = "<group>"; };
+		01B953F11FE123580051ACA4 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		01B953F21FE123580051ACA4 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		01B953F41FE125890051ACA4 /* 资源 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "资源 17.png"; sourceTree = "<group>"; };
+		01B953F61FE125D70051ACA4 /* bg_nfc_lock-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_nfc_lock-02.jpg"; sourceTree = "<group>"; };
+		01B953F81FE200DE0051ACA4 /* ZKUnlockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKUnlockController.h; sourceTree = "<group>"; };
+		01B953F91FE200DE0051ACA4 /* ZKUnlockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKUnlockController.m; sourceTree = "<group>"; };
+		01B953FA1FE200DE0051ACA4 /* ZKUnlockController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKUnlockController.xib; sourceTree = "<group>"; };
+		01B953FD1FE213700051ACA4 /* ZKEmp1Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKEmp1Button.h; sourceTree = "<group>"; };
+		01B953FE1FE213700051ACA4 /* ZKEmp1Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKEmp1Button.m; sourceTree = "<group>"; };
+		01B954001FE217050051ACA4 /* ZKEmp2Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKEmp2Button.h; sourceTree = "<group>"; };
+		01B954011FE217050051ACA4 /* ZKEmp2Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKEmp2Button.m; sourceTree = "<group>"; };
+		01B954031FE24A480051ACA4 /* ZKEmp3Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKEmp3Button.h; sourceTree = "<group>"; };
+		01B954041FE24A480051ACA4 /* ZKEmp3Button.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKEmp3Button.m; sourceTree = "<group>"; };
+		01B954061FE262F90051ACA4 /* ZKRemarkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKRemarkController.h; sourceTree = "<group>"; };
+		01B954071FE262F90051ACA4 /* ZKRemarkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKRemarkController.m; sourceTree = "<group>"; };
+		01B954081FE262F90051ACA4 /* ZKRemarkController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKRemarkController.xib; sourceTree = "<group>"; };
+		01B9540B1FE37C030051ACA4 /* ZKMainTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKMainTableCell.h; sourceTree = "<group>"; };
+		01B9540C1FE37C030051ACA4 /* ZKMainTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKMainTableCell.m; sourceTree = "<group>"; };
+		01B9540E1FE4A9D60051ACA4 /* 升级.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "升级.png"; sourceTree = "<group>"; };
+		01B954101FE4BB5E0051ACA4 /* StartImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartImage.png; sourceTree = "<group>"; };
+		01B954121FE5076A0051ACA4 /* ZKKeyManageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKKeyManageController.h; sourceTree = "<group>"; };
+		01B954131FE5076A0051ACA4 /* ZKKeyManageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKKeyManageController.m; sourceTree = "<group>"; };
+		01B954141FE5076A0051ACA4 /* ZKKeyManageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZKKeyManageController.xib; sourceTree = "<group>"; };
+		01C9B02B1FC7F243004CC7D8 /* ZKCommonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKCommonData.h; sourceTree = "<group>"; };
+		01C9B02C1FC7F243004CC7D8 /* ZKCommonData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKCommonData.m; sourceTree = "<group>"; };
+		01F3EF732004747500B0076A /* ZKProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKProgressView.h; sourceTree = "<group>"; };
+		01F3EF742004747500B0076A /* ZKProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010F43BE1FBA782F00C33565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010F43D61FBA782F00C33565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010F43E11FBA782F00C33565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010F43B81FBA782F00C33565 = {
+			isa = PBXGroup;
+			children = (
+				010F43C31FBA782F00C33565 /* 蓝牙电子锁 */,
+				010F43DC1FBA782F00C33565 /* 蓝牙电子锁Tests */,
+				010F43E71FBA782F00C33565 /* 蓝牙电子锁UITests */,
+				010F43C21FBA782F00C33565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		010F43C21FBA782F00C33565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010F43C11FBA782F00C33565 /* 蓝牙电子锁.app */,
+				010F43D91FBA782F00C33565 /* 蓝牙电子锁Tests.xctest */,
+				010F43E41FBA782F00C33565 /* 蓝牙电子锁UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010F43C31FBA782F00C33565 /* 蓝牙电子锁 */ = {
+			isa = PBXGroup;
+			children = (
+				0169282D1FCBE7A9006D599F /* 蓝牙电子锁.entitlements */,
+				010F43FB1FBD265500C33565 /* Classes */,
+				010F43F61FBD25A800C33565 /* image */,
+				010F43C41FBA782F00C33565 /* AppDelegate.h */,
+				010F43C51FBA782F00C33565 /* AppDelegate.m */,
+				010F440F1FBD28D000C33565 /* Singleton.h */,
+				010F43C71FBA782F00C33565 /* ViewController.h */,
+				010F43C81FBA782F00C33565 /* ViewController.m */,
+				010F43CA1FBA782F00C33565 /* Main.storyboard */,
+				010F43CD1FBA782F00C33565 /* Assets.xcassets */,
+				010F43CF1FBA782F00C33565 /* LaunchScreen.storyboard */,
+				010F43D21FBA782F00C33565 /* Info.plist */,
+				010F43D31FBA782F00C33565 /* main.m */,
+				010F440E1FBD27A700C33565 /* mosaic.pch */,
+			);
+			path = "蓝牙电子锁";
+			sourceTree = "<group>";
+		};
+		010F43DC1FBA782F00C33565 /* 蓝牙电子锁Tests */ = {
+			isa = PBXGroup;
+			children = (
+				010F43DD1FBA782F00C33565 /* _____Tests.m */,
+				010F43DF1FBA782F00C33565 /* Info.plist */,
+			);
+			path = "蓝牙电子锁Tests";
+			sourceTree = "<group>";
+		};
+		010F43E71FBA782F00C33565 /* 蓝牙电子锁UITests */ = {
+			isa = PBXGroup;
+			children = (
+				010F43E81FBA782F00C33565 /* _____UITests.m */,
+				010F43EA1FBA782F00C33565 /* Info.plist */,
+			);
+			path = "蓝牙电子锁UITests";
+			sourceTree = "<group>";
+		};
+		010F43F61FBD25A800C33565 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				01259653200CA7560044C8D5 /* 升级图标.png */,
+				0125964720084E8D0044C8D5 /* 键盘开锁图标.png */,
+				0125964520084E820044C8D5 /* 关于.png */,
+				013F31821FEA628100FD4C94 /* 不可开锁.png */,
+				013F31801FEA626C00FD4C94 /* 可开锁.png */,
+				01B954101FE4BB5E0051ACA4 /* StartImage.png */,
+				01B9540E1FE4A9D60051ACA4 /* 升级.png */,
+				01B953F61FE125D70051ACA4 /* bg_nfc_lock-02.jpg */,
+				01B953F41FE125890051ACA4 /* 资源 17.png */,
+				016E42EE1FE0AFBC00342A6E /* 蓝牙锁APP_02_画板 4.png */,
+				016E42F01FE0B04100342A6E /* 蓝牙锁APP_画板 2.png */,
+				016E42E81FDFAB0D00342A6E /* 添加按钮.png */,
+				016E42D81FDFAA4300342A6E /* 保存图标.png */,
+				016E42D21FDFAA4300342A6E /* 返回按钮.png */,
+				016E42DA1FDFAA4400342A6E /* 开关按钮.png */,
+				016E42D91FDFAA4300342A6E /* 开锁图标.png */,
+				016E42D51FDFAA4300342A6E /* 删除设备.png */,
+				016E42D41FDFAA4300342A6E /* 设备.png */,
+				016E42D71FDFAA4300342A6E /* 下一级按钮.png */,
+				016E42DB1FDFAA4400342A6E /* 钥匙管理.png */,
+				016E42D31FDFAA4300342A6E /* 在线升级.png */,
+				010F43F81FBD260F00C33565 /* error.png */,
+				010F43F71FBD260F00C33565 /* success.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		010F43FB1FBD265500C33565 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				017E6D8B2003421600BF488B /* FileModel */,
+				018C7C572000AE360089BF3C /* Tool */,
+				016928481FD2561D006D599F /* UIControl */,
+				016928291FCBE6D1006D599F /* Lib */,
+				01C9B02A1FC7F1F5004CC7D8 /* COMMON */,
+				010F44101FBD84E400C33565 /* BleManager */,
+				010F44061FBD26AC00C33565 /* OtherView */,
+				010F43FC1FBD267400C33565 /* Extension */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		010F43FC1FBD267400C33565 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				01B953F11FE123580051ACA4 /* UIView+Extension.h */,
+				01B953F21FE123580051ACA4 /* UIView+Extension.m */,
+				010F44001FBD267400C33565 /* NSString+ZKString.h */,
+				010F43FD1FBD267400C33565 /* NSString+ZKString.m */,
+				010F43FE1FBD267400C33565 /* UIColor+ZKColor.h */,
+				010F44011FBD267400C33565 /* UIColor+ZKColor.m */,
+				010F43FF1FBD267400C33565 /* UIImage+ZKImage.h */,
+				010F44021FBD267400C33565 /* UIImage+ZKImage.m */,
+				016928511FD79606006D599F /* NSData+ZKData.h */,
+				016928521FD79606006D599F /* NSData+ZKData.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		010F44061FBD26AC00C33565 /* OtherView */ = {
+			isa = PBXGroup;
+			children = (
+				0125969C2012F4CE0044C8D5 /* ZKBatteryView.h */,
+				0125969B2012F4CE0044C8D5 /* ZKBatteryView.m */,
+				01F3EF732004747500B0076A /* ZKProgressView.h */,
+				01F3EF742004747500B0076A /* ZKProgressView.m */,
+				010F44071FBD26AC00C33565 /* ZKNotificationView.h */,
+				010F440A1FBD26AC00C33565 /* ZKNotificationView.m */,
+				010F44091FBD26AC00C33565 /* ZKAlertView.h */,
+				010F44081FBD26AC00C33565 /* ZKAlertView.m */,
+			);
+			path = OtherView;
+			sourceTree = "<group>";
+		};
+		010F44101FBD84E400C33565 /* BleManager */ = {
+			isa = PBXGroup;
+			children = (
+				010F44151FBE6DDF00C33565 /* ZKBleManager.h */,
+				010F44141FBE6DDF00C33565 /* ZKBleManager.m */,
+				010F44121FBE6DDF00C33565 /* ZKCommandData.h */,
+				010F44111FBE6DDF00C33565 /* ZKCommandData.m */,
+				010F44131FBE6DDF00C33565 /* ZKPeripheral.h */,
+				010F44161FBE6DDF00C33565 /* ZKPeripheral.m */,
+			);
+			path = BleManager;
+			sourceTree = "<group>";
+		};
+		016928291FCBE6D1006D599F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				0169282F1FCD3644006D599F /* FMDB */,
+				0169282E1FCD3629006D599F /* UICKeyChainStore */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		0169282E1FCD3629006D599F /* UICKeyChainStore */ = {
+			isa = PBXGroup;
+			children = (
+				0169282A1FCBE6EF006D599F /* UICKeyChainStore.h */,
+				0169282B1FCBE6EF006D599F /* UICKeyChainStore.m */,
+			);
+			path = UICKeyChainStore;
+			sourceTree = "<group>";
+		};
+		0169282F1FCD3644006D599F /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				016928391FCD3672006D599F /* FMDatabase.h */,
+				016928361FCD3672006D599F /* FMDatabase.m */,
+				0169283A1FCD3673006D599F /* FMDatabaseAdditions.h */,
+				016928341FCD3672006D599F /* FMDatabaseAdditions.m */,
+				016928351FCD3672006D599F /* FMDatabasePool.h */,
+				016928311FCD3672006D599F /* FMDatabasePool.m */,
+				016928301FCD3672006D599F /* FMDatabaseQueue.h */,
+				016928371FCD3672006D599F /* FMDatabaseQueue.m */,
+				016928381FCD3672006D599F /* FMDB.h */,
+				016928321FCD3672006D599F /* FMResultSet.h */,
+				016928331FCD3672006D599F /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		016928481FD2561D006D599F /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				012C4BA82018733800EC4A0A /* ZKSignalController.h */,
+				012C4BA92018733800EC4A0A /* ZKSignalController.m */,
+				012C4BAA2018733800EC4A0A /* ZKSignalController.xib */,
+				01259655200D857F0044C8D5 /* ZKAboutBleController.h */,
+				01259656200D857F0044C8D5 /* ZKAboutBleController.m */,
+				01259657200D857F0044C8D5 /* ZKAboutBleController.xib */,
+				0125964E200891F10044C8D5 /* ZKKeyboardLockController.h */,
+				0125964F200891F10044C8D5 /* ZKKeyboardLockController.m */,
+				01259650200891F10044C8D5 /* ZKKeyboardLockController.xib */,
+				0125964920084FC60044C8D5 /* ZKDevManagerController.h */,
+				0125964A20084FC60044C8D5 /* ZKDevManagerController.m */,
+				0125964B20084FC70044C8D5 /* ZKDevManagerController.xib */,
+				011394271FF37E24009D2B35 /* ZKUpgradeViewController.h */,
+				011394281FF37E24009D2B35 /* ZKUpgradeViewController.m */,
+				011394291FF37E24009D2B35 /* ZKUpgradeViewController.xib */,
+				01B954121FE5076A0051ACA4 /* ZKKeyManageController.h */,
+				01B954131FE5076A0051ACA4 /* ZKKeyManageController.m */,
+				01B954141FE5076A0051ACA4 /* ZKKeyManageController.xib */,
+				01B954061FE262F90051ACA4 /* ZKRemarkController.h */,
+				01B954071FE262F90051ACA4 /* ZKRemarkController.m */,
+				01B954081FE262F90051ACA4 /* ZKRemarkController.xib */,
+				01B953F81FE200DE0051ACA4 /* ZKUnlockController.h */,
+				01B953F91FE200DE0051ACA4 /* ZKUnlockController.m */,
+				01B953FA1FE200DE0051ACA4 /* ZKUnlockController.xib */,
+				016928581FDF8411006D599F /* ZKMainViewController.h */,
+				016928591FDF8411006D599F /* ZKMainViewController.m */,
+				0169285A1FDF8411006D599F /* ZKMainViewController.xib */,
+				016928491FD2570B006D599F /* ZKAddBLEController.h */,
+				0169284A1FD2570B006D599F /* ZKAddBLEController.m */,
+				0169284B1FD2570B006D599F /* ZKAddBLEController.xib */,
+				016E42F21FE0BC3F00342A6E /* view */,
+				016E42EA1FDFBB5C00342A6E /* RewriteUI */,
+				016928541FDF78F1006D599F /* GlobalVC */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		016928541FDF78F1006D599F /* GlobalVC */ = {
+			isa = PBXGroup;
+			children = (
+				016928551FDF7A0A006D599F /* ZKNavigationController.h */,
+				016928561FDF7A0A006D599F /* ZKNavigationController.m */,
+			);
+			path = GlobalVC;
+			sourceTree = "<group>";
+		};
+		016E42EA1FDFBB5C00342A6E /* RewriteUI */ = {
+			isa = PBXGroup;
+			children = (
+				016E42EB1FDFBB7700342A6E /* ZKButton.h */,
+				016E42EC1FDFBB7700342A6E /* ZKButton.m */,
+			);
+			path = RewriteUI;
+			sourceTree = "<group>";
+		};
+		016E42F21FE0BC3F00342A6E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				01B9540B1FE37C030051ACA4 /* ZKMainTableCell.h */,
+				01B9540C1FE37C030051ACA4 /* ZKMainTableCell.m */,
+				01B953EB1FE0F53F0051ACA4 /* ZKTableViewCell.h */,
+				01B953EC1FE0F53F0051ACA4 /* ZKTableViewCell.m */,
+				01B953EE1FE10BC90051ACA4 /* ZKMaskController.h */,
+				01B953EF1FE10BC90051ACA4 /* ZKMaskController.m */,
+				01B953FD1FE213700051ACA4 /* ZKEmp1Button.h */,
+				01B953FE1FE213700051ACA4 /* ZKEmp1Button.m */,
+				01B954001FE217050051ACA4 /* ZKEmp2Button.h */,
+				01B954011FE217050051ACA4 /* ZKEmp2Button.m */,
+				01B954031FE24A480051ACA4 /* ZKEmp3Button.h */,
+				01B954041FE24A480051ACA4 /* ZKEmp3Button.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		017E6D8B2003421600BF488B /* FileModel */ = {
+			isa = PBXGroup;
+			children = (
+				017E6D8C2003423D00BF488B /* ZKFile.h */,
+				017E6D8D2003423D00BF488B /* ZKFile.m */,
+			);
+			path = FileModel;
+			sourceTree = "<group>";
+		};
+		018C7C572000AE360089BF3C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				018C7C582000AF2C0089BF3C /* ZKFileTool.h */,
+				018C7C592000AF2C0089BF3C /* ZKFileTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		01C9B02A1FC7F1F5004CC7D8 /* COMMON */ = {
+			isa = PBXGroup;
+			children = (
+				01C9B02B1FC7F243004CC7D8 /* ZKCommonData.h */,
+				01C9B02C1FC7F243004CC7D8 /* ZKCommonData.m */,
+			);
+			path = COMMON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010F43C01FBA782F00C33565 /* 蓝牙电子锁 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010F43ED1FBA782F00C33565 /* Build configuration list for PBXNativeTarget "蓝牙电子锁" */;
+			buildPhases = (
+				010F43BD1FBA782F00C33565 /* Sources */,
+				010F43BE1FBA782F00C33565 /* Frameworks */,
+				010F43BF1FBA782F00C33565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "蓝牙电子锁";
+			productName = "蓝牙电子锁";
+			productReference = 010F43C11FBA782F00C33565 /* 蓝牙电子锁.app */;
+			productType = "com.apple.product-type.application";
+		};
+		010F43D81FBA782F00C33565 /* 蓝牙电子锁Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010F43F01FBA782F00C33565 /* Build configuration list for PBXNativeTarget "蓝牙电子锁Tests" */;
+			buildPhases = (
+				010F43D51FBA782F00C33565 /* Sources */,
+				010F43D61FBA782F00C33565 /* Frameworks */,
+				010F43D71FBA782F00C33565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010F43DB1FBA782F00C33565 /* PBXTargetDependency */,
+			);
+			name = "蓝牙电子锁Tests";
+			productName = "蓝牙电子锁Tests";
+			productReference = 010F43D91FBA782F00C33565 /* 蓝牙电子锁Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		010F43E31FBA782F00C33565 /* 蓝牙电子锁UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010F43F31FBA782F00C33565 /* Build configuration list for PBXNativeTarget "蓝牙电子锁UITests" */;
+			buildPhases = (
+				010F43E01FBA782F00C33565 /* Sources */,
+				010F43E11FBA782F00C33565 /* Frameworks */,
+				010F43E21FBA782F00C33565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010F43E61FBA782F00C33565 /* PBXTargetDependency */,
+			);
+			name = "蓝牙电子锁UITests";
+			productName = "蓝牙电子锁UITests";
+			productReference = 010F43E41FBA782F00C33565 /* 蓝牙电子锁UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010F43B91FBA782F00C33565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = mosaic;
+				TargetAttributes = {
+					010F43C01FBA782F00C33565 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					010F43D81FBA782F00C33565 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 010F43C01FBA782F00C33565;
+					};
+					010F43E31FBA782F00C33565 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 010F43C01FBA782F00C33565;
+					};
+				};
+			};
+			buildConfigurationList = 010F43BC1FBA782F00C33565 /* Build configuration list for PBXProject "蓝牙电子锁" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010F43B81FBA782F00C33565;
+			productRefGroup = 010F43C21FBA782F00C33565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010F43C01FBA782F00C33565 /* 蓝牙电子锁 */,
+				010F43D81FBA782F00C33565 /* 蓝牙电子锁Tests */,
+				010F43E31FBA782F00C33565 /* 蓝牙电子锁UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010F43BF1FBA782F00C33565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013F31831FEA628100FD4C94 /* 不可开锁.png in Resources */,
+				016E42DD1FDFAA4400342A6E /* 在线升级.png in Resources */,
+				016E42E91FDFAB0D00342A6E /* 添加按钮.png in Resources */,
+				016E42F11FE0B04100342A6E /* 蓝牙锁APP_画板 2.png in Resources */,
+				016E42E31FDFAA4400342A6E /* 开锁图标.png in Resources */,
+				0169284D1FD2570B006D599F /* ZKAddBLEController.xib in Resources */,
+				010F43D11FBA782F00C33565 /* LaunchScreen.storyboard in Resources */,
+				016E42E51FDFAA4400342A6E /* 钥匙管理.png in Resources */,
+				016E42DE1FDFAA4400342A6E /* 设备.png in Resources */,
+				016E42DF1FDFAA4400342A6E /* 删除设备.png in Resources */,
+				01259654200CA7560044C8D5 /* 升级图标.png in Resources */,
+				01B9540A1FE262F90051ACA4 /* ZKRemarkController.xib in Resources */,
+				01259652200891F10044C8D5 /* ZKKeyboardLockController.xib in Resources */,
+				016E42E41FDFAA4400342A6E /* 开关按钮.png in Resources */,
+				016E42E11FDFAA4400342A6E /* 下一级按钮.png in Resources */,
+				0125964820084E8D0044C8D5 /* 键盘开锁图标.png in Resources */,
+				0125964D20084FC70044C8D5 /* ZKDevManagerController.xib in Resources */,
+				01B954111FE4BB5F0051ACA4 /* StartImage.png in Resources */,
+				01259659200D857F0044C8D5 /* ZKAboutBleController.xib in Resources */,
+				010F43FA1FBD260F00C33565 /* error.png in Resources */,
+				016E42EF1FE0AFBC00342A6E /* 蓝牙锁APP_02_画板 4.png in Resources */,
+				010F43CE1FBA782F00C33565 /* Assets.xcassets in Resources */,
+				012C4BAC2018733800EC4A0A /* ZKSignalController.xib in Resources */,
+				0113942B1FF37E24009D2B35 /* ZKUpgradeViewController.xib in Resources */,
+				01B9540F1FE4A9D60051ACA4 /* 升级.png in Resources */,
+				016E42E21FDFAA4400342A6E /* 保存图标.png in Resources */,
+				0125964620084E830044C8D5 /* 关于.png in Resources */,
+				016E42DC1FDFAA4400342A6E /* 返回按钮.png in Resources */,
+				01B954161FE5076A0051ACA4 /* ZKKeyManageController.xib in Resources */,
+				01B953FC1FE200DE0051ACA4 /* ZKUnlockController.xib in Resources */,
+				013F31811FEA626C00FD4C94 /* 可开锁.png in Resources */,
+				01B953F51FE125890051ACA4 /* 资源 17.png in Resources */,
+				0169285C1FDF8411006D599F /* ZKMainViewController.xib in Resources */,
+				010F43CC1FBA782F00C33565 /* Main.storyboard in Resources */,
+				01B953F71FE125D80051ACA4 /* bg_nfc_lock-02.jpg in Resources */,
+				010F43F91FBD260F00C33565 /* success.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010F43D71FBA782F00C33565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010F43E21FBA782F00C33565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010F43BD1FBA782F00C33565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B953ED1FE0F53F0051ACA4 /* ZKTableViewCell.m in Sources */,
+				010F440B1FBD26AC00C33565 /* ZKAlertView.m in Sources */,
+				010F44171FBE6DDF00C33565 /* ZKCommandData.m in Sources */,
+				0169285B1FDF8411006D599F /* ZKMainViewController.m in Sources */,
+				010F44191FBE6DDF00C33565 /* ZKPeripheral.m in Sources */,
+				010F43C91FBA782F00C33565 /* ViewController.m in Sources */,
+				0169283E1FCD3673006D599F /* FMDatabase.m in Sources */,
+				016928531FD79606006D599F /* NSData+ZKData.m in Sources */,
+				010F44031FBD267400C33565 /* NSString+ZKString.m in Sources */,
+				010F44181FBE6DDF00C33565 /* ZKBleManager.m in Sources */,
+				01B953FB1FE200DE0051ACA4 /* ZKUnlockController.m in Sources */,
+				01B953F31FE123590051ACA4 /* UIView+Extension.m in Sources */,
+				01F3EF752004747500B0076A /* ZKProgressView.m in Sources */,
+				017E6D8E2003423D00BF488B /* ZKFile.m in Sources */,
+				0169282C1FCBE6F0006D599F /* UICKeyChainStore.m in Sources */,
+				018C7C5A2000AF2C0089BF3C /* ZKFileTool.m in Sources */,
+				01B954021FE217050051ACA4 /* ZKEmp2Button.m in Sources */,
+				0169283D1FCD3673006D599F /* FMDatabaseAdditions.m in Sources */,
+				01B954091FE262F90051ACA4 /* ZKRemarkController.m in Sources */,
+				010F44051FBD267400C33565 /* UIImage+ZKImage.m in Sources */,
+				0125964C20084FC70044C8D5 /* ZKDevManagerController.m in Sources */,
+				01B953F01FE10BC90051ACA4 /* ZKMaskController.m in Sources */,
+				0113942A1FF37E24009D2B35 /* ZKUpgradeViewController.m in Sources */,
+				010F44041FBD267400C33565 /* UIColor+ZKColor.m in Sources */,
+				012C4BAB2018733800EC4A0A /* ZKSignalController.m in Sources */,
+				01259658200D857F0044C8D5 /* ZKAboutBleController.m in Sources */,
+				0125969D2012F4CE0044C8D5 /* ZKBatteryView.m in Sources */,
+				01B954151FE5076A0051ACA4 /* ZKKeyManageController.m in Sources */,
+				0169283C1FCD3673006D599F /* FMResultSet.m in Sources */,
+				010F43D41FBA782F00C33565 /* main.m in Sources */,
+				016928571FDF7A0A006D599F /* ZKNavigationController.m in Sources */,
+				01C9B02D1FC7F243004CC7D8 /* ZKCommonData.m in Sources */,
+				0169283B1FCD3673006D599F /* FMDatabasePool.m in Sources */,
+				010F440C1FBD26AC00C33565 /* ZKNotificationView.m in Sources */,
+				010F43C61FBA782F00C33565 /* AppDelegate.m in Sources */,
+				0169283F1FCD3673006D599F /* FMDatabaseQueue.m in Sources */,
+				0169284C1FD2570B006D599F /* ZKAddBLEController.m in Sources */,
+				01259651200891F10044C8D5 /* ZKKeyboardLockController.m in Sources */,
+				01B9540D1FE37C030051ACA4 /* ZKMainTableCell.m in Sources */,
+				016E42ED1FDFBB7700342A6E /* ZKButton.m in Sources */,
+				01B953FF1FE213700051ACA4 /* ZKEmp1Button.m in Sources */,
+				01B954051FE24A480051ACA4 /* ZKEmp3Button.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010F43D51FBA782F00C33565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010F43DE1FBA782F00C33565 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010F43E01FBA782F00C33565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010F43E91FBA782F00C33565 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		010F43DB1FBA782F00C33565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010F43C01FBA782F00C33565 /* 蓝牙电子锁 */;
+			targetProxy = 010F43DA1FBA782F00C33565 /* PBXContainerItemProxy */;
+		};
+		010F43E61FBA782F00C33565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010F43C01FBA782F00C33565 /* 蓝牙电子锁 */;
+			targetProxy = 010F43E51FBA782F00C33565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		010F43CA1FBA782F00C33565 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010F43CB1FBA782F00C33565 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		010F43CF1FBA782F00C33565 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010F43D01FBA782F00C33565 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		010F43EB1FBA782F00C33565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		010F43EC1FBA782F00C33565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		010F43EE1FBA782F00C33565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "蓝牙电子锁/蓝牙电子锁.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/蓝牙电子锁/mosaic.pch";
+				INFOPLIST_FILE = "蓝牙电子锁/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosaic.smartlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		010F43EF1FBA782F00C33565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "蓝牙电子锁/蓝牙电子锁.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/蓝牙电子锁/mosaic.pch";
+				INFOPLIST_FILE = "蓝牙电子锁/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosaic.smartlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		010F43F11FBA782F00C33565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = "蓝牙电子锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mosaichk.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/蓝牙电子锁.app/蓝牙电子锁";
+			};
+			name = Debug;
+		};
+		010F43F21FBA782F00C33565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = "蓝牙电子锁Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mosaichk.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/蓝牙电子锁.app/蓝牙电子锁";
+			};
+			name = Release;
+		};
+		010F43F41FBA782F00C33565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = "蓝牙电子锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mosaichk.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "蓝牙电子锁";
+			};
+			name = Debug;
+		};
+		010F43F51FBA782F00C33565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U4L4TMXU6;
+				INFOPLIST_FILE = "蓝牙电子锁UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mosaichk.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "蓝牙电子锁";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010F43BC1FBA782F00C33565 /* Build configuration list for PBXProject "蓝牙电子锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010F43EB1FBA782F00C33565 /* Debug */,
+				010F43EC1FBA782F00C33565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010F43ED1FBA782F00C33565 /* Build configuration list for PBXNativeTarget "蓝牙电子锁" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010F43EE1FBA782F00C33565 /* Debug */,
+				010F43EF1FBA782F00C33565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010F43F01FBA782F00C33565 /* Build configuration list for PBXNativeTarget "蓝牙电子锁Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010F43F11FBA782F00C33565 /* Debug */,
+				010F43F21FBA782F00C33565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010F43F31FBA782F00C33565 /* Build configuration list for PBXNativeTarget "蓝牙电子锁UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010F43F41FBA782F00C33565 /* Debug */,
+				010F43F51FBA782F00C33565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010F43B91FBA782F00C33565 /* Project object */;
+}

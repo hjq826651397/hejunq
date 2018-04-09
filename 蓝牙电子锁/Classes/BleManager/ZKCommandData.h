@@ -1,0 +1,35 @@
+//
+//  ZKCommandData.h
+//  MosaicLightBLE
+//
+//  Created by mosaic on 2017/6/8.
+//  Copyright © 2017年 mosaic. All rights reserved.
+//
+
+
+
+
+#define UUID_LOCK_SERVER        @"F000FA50-0451-4000-B000-000000000000" //@"FE551A50-4180-8A02-EF2C-1B42A0AC3F83"
+
+#define UUID_LOCK_ReturnCode    @"F000FA54-0451-4000-B000-000000000000"
+#define UUID_LOCK_UpdateTime    @"F000FA51-0451-4000-B000-000000000000"
+#define UUID_LOCK_ConenctCode   @"F000FA52-0451-4000-B000-000000000000"
+#define UUID_LOCK_KeyCode       @"F000FA53-0451-4000-B000-000000000000"
+#define UUID_LOCK_UnlockPwd     @"F000FA55-0451-4000-B000-000000000000"
+#define UUID_LOCK_KeyPwd        @"F000FA56-0451-4000-B000-000000000000"
+
+
+//在线升级
+#define UUID_UPGRADE_SERVER     @"F000FFC0-0451-4000-B000-000000000000"
+#define UUID_UPGRADE_Identify   @"F000FFC1-0451-4000-B000-000000000000"
+#define UUID_UPGRADE_Block      @"F000FFC2-0451-4000-B000-000000000000"
+#define UUID_UPGRADE_Status     @"F000FFC4-0451-4000-B000-000000000000"
+
+//指令
+#define COMMAND_CONCODE   @"01DEA5"
+
+
+#import <Foundation/Foundation.h>
+@interface ZKCommandData : NSObject
+
+@end
